@@ -1,0 +1,19 @@
+
+.contenedor {
+    display: flex;
+}
+
+.contenedor img {
+    height: 50px;
+    width: 50px;
+}
+
+input {
+    text-align: center;
+}
+
+
+.icono-ingreso {
+    height: 50px;
+    width: 50px;
+}
