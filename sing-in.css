@@ -1,8 +1,19 @@
-.form{
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-color: #9656a1;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 15px;
+    height: 34rem;
+    width: 43rem;
 }
 
 .form h1{
@@ -18,15 +29,33 @@
 }
 
 .contenedor input{
-    padding: 4px 30px;
+    padding: 4px 59px;
+    border: none;
+    border-bottom: 2px solid black;
 }
 
 input {
     text-align: center;
+    background: transparent;
+}
+
+input::placeholder{
+    color:white;
 }
 
 
 .icono-ingreso {
     height: 50px;
     width: 50px;
+    padding: 5% 0 5% 44%;
 }
+
+.form-bottom span, .form-bottom a{
+    font-size: 18px;
+}
+
+.form-bottom a {
+    margin-left: 27px;
+    text-decoration: none;
+}
+
