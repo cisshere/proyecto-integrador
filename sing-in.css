@@ -27,7 +27,6 @@ body {
 }
 
 .form h1{
-    padding-left: 2rem;
     color: #ffdddd;
 }
 .contenedor {
@@ -79,7 +78,6 @@ input::placeholder{
     border-radius: 15px;
     width: 15rem;
     height: 3rem;
-    margin-left: 24px;
     font-weight: bold;
 }
 
