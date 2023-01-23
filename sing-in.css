@@ -2,36 +2,42 @@ body {
     background: black;
     display: flex;
     justify-content: center;
+
+    background-image: url(img/fondo.jpg);
 }
 
 .form {
-    background-color: #9656a1;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 21px;
     height: 34rem;
-    width: 43rem;
+    width: 33rem;
+    background-color: rgba(41, 39, 39, 0.7);
+  box-shadow: 0 5px 30px black;
+        
+       
 }
 
 .form h1{
     padding-left: 2rem;
+    color: #ffdddd;
 }
 .contenedor {
     display: flex;
 }
 
 .contenedor img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 
 .contenedor input{
     padding: 4px 59px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #e1d4d4;
 }
 
 input {
@@ -40,7 +46,7 @@ input {
 }
 
 input::placeholder{
-    color:white;
+    color: #ffdddd;
 }
 
 
@@ -50,12 +56,42 @@ input::placeholder{
     padding: 5% 0 5% 44%;
 }
 
-.form-bottom span, .form-bottom a{
-    font-size: 18px;
+.registro a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ceaed5;
+    color: black;
+    border-radius: 15px;
+    width: 15rem;
+    height: 3rem;
+    margin-left: 24px;
 }
 
-.form-bottom a {
-    margin-left: 27px;
+
+.form-bottom  {
+    display: flex;
     text-decoration: none;
+    gap: 17px;
+    align-items: center;
+}
+
+.facebook {
+    background-color: #3b5998;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 2.5rem;
+    width: 9.5rem;
+}
+
+.facebook img {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
 }
 
