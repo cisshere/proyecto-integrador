@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
+*{
    font-family: 'Open Sans',serif;
 }
 
@@ -19,8 +19,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 21px;
-    height: 35rem;
+    gap: 20px;
+    height: 38rem;
     width: 33rem;
     background-color: rgba(41, 39, 39, 0.7);
     box-shadow: 0 5px 30px black;     
@@ -76,7 +76,6 @@ input::placeholder{
     text-decoration: none;
     gap: 17px;
     align-items: center;
-    padding: 0 0 24px 0;
 }
 
 .facebook {
@@ -113,6 +112,7 @@ a {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 
@@ -121,8 +121,8 @@ a {
 
 .form-login {
     padding-top: 20px;
-    gap: 34px;
-    height: 33rem;
+    gap: 28px;
+    height: 36rem;
     width: 31rem;
 }
 
@@ -147,3 +147,30 @@ a {
 .contenido-login {
     background-image: url("img/1.jpg");
 }
+
+
+.home {
+    background-color: #ceaed5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 7px;
+    margin: 0 0 24px 0;
+    transition: all 0.5s;
+}
+
+.home img {
+    width: 30px;
+}
+
+.home a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.home:hover{
+    transition: all 0.5s;
+    padding: 15px 20px;
+} 

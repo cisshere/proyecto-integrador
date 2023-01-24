@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Open Sans',serif;
+}
+
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: #ceaed5; 
+    padding: 12px 15px;
+    }
+
+.navegador img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 38px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-item-link{
+    color: white;
+}
+
+.nav-item-link:hover{
+    text-decoration: underline;
+ }
+
+ /* ---------- login y registrase ---------- */
+
+ .boton-ingreso{
+    display: flex;
+    align-items: center;
+}
+
+.boton-ingreso img {
+    height: 35px;
+    width: 35px;
+}
+
+.boton-ingreso a {
+    background-color: #ffdddd;
+    padding: 4% 6%;
+    border-radius: 2rem;
+}
+
+
+/* ------------- HERO ---------------- */
