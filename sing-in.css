@@ -26,22 +26,12 @@ body {
     box-shadow: 0 5px 30px black;     
 }
 
-.form h1{
+.titulo-principal{
     color: #ffdddd;
 }
+
 .contenedor {
     display: flex;
-}
-
-.contenedor img {
-    height: 30px;
-    width: 30px;
-}
-
-.contenedor input{
-    padding: 4px 30px;
-    border: none;
-    border-bottom: 2px solid #e1d4d4;
 }
 
 input {
@@ -49,19 +39,14 @@ input {
     background: transparent;
     font-size: 18px;
     color: #ffdddd;
+    padding: 4px 30px;
+    border: none;
+    border-bottom: 2px solid #e1d4d4;
 }
-
 
 input::placeholder{
     color: #ffdddd;
     font-size: 18px;
-    opacity: 1;
-}
-
-.icono-ingreso {
-    height: 50px;
-    width: 50px;
-    padding: 5% 0 5% 44%;
 }
 
 .registro {
@@ -122,6 +107,5 @@ a {
     .form-bottom {
         display: flex;
         flex-direction: column;
-        margin-left: 5%;
     }
 }
