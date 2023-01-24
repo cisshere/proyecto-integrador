@@ -122,12 +122,22 @@ a {
 .form-login {
     padding-top: 20px;
     gap: 34px;
-    height: 30rem;
-    width: 30rem;
+    height: 33rem;
+    width: 31rem;
 }
 
-.password {
+.password .checkbox{
     font-size: 18px;
+    color:white;
+}
+
+.checkbox{
+    font-size: 18px;
+    color:white;
+}
+
+.registro-login{
+    padding: 0;
 }
 
 .password:hover {
