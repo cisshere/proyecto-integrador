@@ -1,0 +1,43 @@
+ @media (max-width:760px ) {
+    .icono-principal{
+        display: none;
+    }
+}
+
+.menu-des, #menu-des, .menu-label{
+    display: none;
+}
+
+@media (max-width: 674px) {
+
+    .nav-list-principal {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        top: 59px;
+        left: 15%;
+        width: 70%;
+        align-items: center;
+        background-color: #ceaed5;
+        border: 2px solid black;
+        border-top: 0;
+        padding: 4% 0%;
+        font-size: 18px;
+    }
+
+
+    .menu-label, .menu-des, .menu-label{
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .menu-label img{
+        width: 35px;
+        height: 35px;
+    }
+    
+    #menu-des:checked + .nav-list-principal{
+        display: flex;
+    }
+    
+}

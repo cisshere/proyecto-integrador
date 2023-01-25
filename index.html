@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Showroom</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
 
@@ -13,16 +14,20 @@
 
         <nav class="navegador">
 
-            
-
-            <ul class="nav-list">
-                <img src="img/eevee.png" alt="evee">
+            <label for="menu-des" class="menu-label">
+                <img src="img/menu.png" alt="menu despegable" class="menu-des">
+            </label>
+            <input type="checkbox" id="menu-des">
+        
+            <ul class="nav-list nav-list-principal">
+                <img src="img/eevee.png" alt="evee" class="icono-principal">
                 <li class="nav-item"> <a class="nav-item-link" href="">Inicio</a> </li>
-                <li class="nav-item"> <a class="nav-item-link" href="#cards">Productos</a> </li>
-                <li class="nav-item"> <a class="nav-item-link" href="">Mayorista</a> </li>
+                <li class="nav-item"> <a class="nav-item-link" href="">Productos</a> </li>
+                <li class="nav-item"> <a class="nav-item-link" href="">Beneficios</a> </li>
                 <li class="nav-item"> <a class="nav-item-link" href="">Contacto</a> </li>
             </ul>
-
+            
+            
             <div class="boton-ingreso">
                 <ul class="nav-list">
                     <img src="img/bolsa.png" alt="">
