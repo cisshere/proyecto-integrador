@@ -9,12 +9,10 @@ body{
    font-family: 'Open Sans',serif;
 }
 
-/*
-.navegador {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-} */
-
+.prueba {
+  display: flex;
+  gap: 15px;
+}
 
 html{
     background-color: white;

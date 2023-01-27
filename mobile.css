@@ -1,14 +1,10 @@
- @media (max-width:760px ) {
-    .icono-principal{
-        display: none;
-    }
-}
+
 
 .menu-des, #menu-des, .menu-label{
     display: none;
 }
 
-@media (max-width: 674px) {
+@media (max-width: 776px) {
 
     .nav-list-principal {
         position: absolute;
@@ -25,6 +21,16 @@
         font-size: 18px;
     }
 
+    .prueba {
+        gap: 33px;
+    }
+
+    .navegador {
+        justify-content: space-between;
+    }
+
+
+
 
     .menu-label, .menu-des, .menu-label{
         display: flex;
@@ -32,8 +38,9 @@
     }
     
     .menu-label img{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
+        margin-top: 4px;
     }
     
     #menu-des:checked + .nav-list-principal{
