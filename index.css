@@ -192,6 +192,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 3%;
 }
 
 .preventa p{
@@ -221,7 +222,7 @@ li {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin: 0 16%;
+    margin: 0 10%;
 }
 
 .producto {
@@ -229,29 +230,53 @@ li {
     display: flex;
     text-align: center;
     gap: 5px;
-    background: #ceaed5;
     margin: 2%;
 }
 
 .producto img {
   width: 12rem;
+  height: 12rem;
     margin: 12px;
     border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
 }
 
-.producto p{
+
+.producto p {
+  width: 13.5rem;
+}
+
+.precio{
   font-weight: bold;
 }
 
 .producto a {
   background-color: #f7d2f5;
-    margin: 13px 16%;
-    border-radius: 4px;
-    padding: 4px 0;
+  border-radius: 4px;
+  padding: 4px 23px;
+  letter-spacing: 1px;
+  margin-top: 2%;
+}
+
+.producto a:hover,
+.ver-mas:hover{
+ background-color: violet;
+ color: black;
+ font-weight: bold;
 }
 
 .descuento {
   text-align: center;
     font-size: 9px;
     color: grey;
+}
+
+.ver-mas{
+  display: flex;
+    justify-content: center;
+        padding: 5px;
+    background-color: #f7d2f5;
+    margin: 4% 44%;
+    border: 1px solid;
 }
