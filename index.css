@@ -1,23 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-
-  @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Slabo+27px&family=Unbounded:wght@400;500&display=swap');
-
-  .primera{
-    font-family: 'Gloria Hallelujah';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .primera p{
-    text-align: center;
-  }
-
-  .primera h1 {
-    text-align: center;
-  }
-
 *{
     margin: 0;
     padding: 0;
@@ -102,7 +84,7 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4% 7%;
+  margin: 3% 7%;
   flex-wrap: wrap;
 }
 
@@ -203,5 +185,73 @@ li {
   border-radius: 100%;
 }
 
-/* --------------------- PRUEBA ------------- */
+/* --------------------- PREVENTA ------------- */
 
+.preventa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preventa p{
+  text-align: center;
+  
+
+}
+
+.preventa h1 {
+  text-align: center;
+}
+
+.cards h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: antiquewhite;
+    margin: 5%;
+}
+
+
+/*************** PRODUCTOS *************/
+
+.productos-conteiner {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 16%;
+}
+
+.producto {
+  flex-direction: column;
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    background: #ceaed5;
+    margin: 2%;
+}
+
+.producto img {
+  width: 12rem;
+    margin: 12px;
+    border-radius: 15px;
+}
+
+.producto p{
+  font-weight: bold;
+}
+
+.producto a {
+  background-color: #f7d2f5;
+    margin: 13px 16%;
+    border-radius: 4px;
+    padding: 4px 0;
+}
+
+.descuento {
+  text-align: center;
+    font-size: 9px;
+    color: grey;
+}
