@@ -194,11 +194,16 @@ li {
 
 .preventa{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(img/fondo.jpg);
-  gap: 14px;
+  background-image: url(img/fondo-preventa.jpg);
+}
+
+.preventa-contenedor{
+  background-color: rgba(41, 39, 39, 0.3);
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .preventa p{
@@ -214,7 +219,7 @@ li {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-  background-color: antiquewhite;
+  background-color: #f7d2f59e;
     margin: 5%;
 }
 
@@ -298,19 +303,23 @@ li {
     /* --------------------- BENEFICIOS -------------------- */
 
     .beneficios{
+      display: flex; 
+      flex-direction: column;
+      text-align: center;
+      border: 1px solid black;
+      background-image: url(img/ggg.jpg);
+      font-weight: bold;
+      font-size: 21px;
+  }
+
+  .beneficios-contenedor {
+    background-color: rgba(41, 39, 39, 0.6);
+    padding: 20px;
+    color: #ffdddd;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 13px;
-    border: 1px solid black;
-    margin: 4% 16%;
-    background-image: url("img/ff.jpg");
+    gap: 15px;
   }
-
-  .beneficios h3{
-    font-size: 21px;
-  }
-
 
     /* -------------- CONTACTO ---------------- */
 
