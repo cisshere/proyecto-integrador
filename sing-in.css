@@ -9,7 +9,7 @@ body {
     background: black;
     display: flex;
     justify-content: center;
-    background-image: url(img/2.jpg);
+    background-image: url(img/fondo-sign_in.jpg);
     background-repeat: repeat;
 }
 
@@ -145,7 +145,7 @@ a {
 }
 
 .contenido-login {
-    background-image: url("img/1.jpg");
+    background-image: url("img/fondo-login.jpg");
 }
 
 
