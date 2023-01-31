@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+
+
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -12,10 +15,6 @@ body{
 html{
     background-color: white;
     scroll-behavior: smooth;
-}
-
-a{
-    text-decoration: none;
 }
 
 .navegador {
@@ -52,13 +51,22 @@ a{
     color: white;
 }
 
-.nav-item-link:hover{
+.nav-item-link:hover,
+.boton-ingreso a:hover{
     text-decoration: underline;
  }
 
 
  /* ---------- login y registrase ---------- */
 
+.nav-list-secundario{
+  gap: 8px;
+}
+
+.nav-list-secundario p{
+  margin-top: 6px;
+    color: white;
+}
 
  .boton-ingreso{
     display: flex;
@@ -72,9 +80,9 @@ a{
 }
 
 .boton-ingreso a {
-    background-color: #ffdddd;
-    padding: 11% 9%;
     border-radius: 0.5rem;
+    color:white;
+    font-size: 15px;
 }
 
 
