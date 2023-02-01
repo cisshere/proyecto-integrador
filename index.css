@@ -179,7 +179,7 @@ html{
   display: inline-block;
   text-decoration: none;
   background-color: #cec9cf;
-  padding: 0.625rem;
+  padding: 0.325rem;
   width: 0.938rem;
   height: 0.938rem;
   border-radius: 100%;
@@ -389,14 +389,21 @@ input {
 /* -------------- FOOTER ---------------- */
 
 footer{
-    background-color: #ceaed5;
-    padding: 4rem;
+  flex-direction: column;
+  background-color: #ceaed5;
+  padding: 2rem;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-contenedor{
+  width: 100%;
     display: flex;
-    gap: 4rem;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    gap: 3rem;
 }
 
 .redes {
@@ -414,14 +421,7 @@ footer{
     gap: 0.813rem;
 }
 
-.contenedor-redes img:first-child{
-  width: 1.5rem;
-    height: 1.5rem;
-}
 
-.contactos a:first-child{
-  font-size: 15px;
-}
 
 .contactos {
   display: flex;
@@ -435,4 +435,8 @@ footer{
 
 .medios-de-pago img {
   width: 3.125rem;
+}
+
+footer p {
+  font-weight: bold;
 }
