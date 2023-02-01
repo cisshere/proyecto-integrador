@@ -389,11 +389,14 @@ input {
 /* -------------- FOOTER ---------------- */
 
 footer{
-  background-color: #ceaed5;
-  padding: 2rem 2rem 2rem 4rem;
-  display: flex;
+    background-color: #ceaed5;
+    padding: 4rem;
+    display: flex;
     gap: 4rem;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .redes {
@@ -411,10 +414,23 @@ footer{
     gap: 0.813rem;
 }
 
+.contenedor-redes img:first-child{
+  width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contactos a:first-child{
+  font-size: 15px;
+}
+
 .contactos {
   display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.medios-de-pago h2{
+  margin-bottom: 1rem;
 }
 
 .medios-de-pago img {
