@@ -185,6 +185,7 @@ html{
   border-radius: 100%;
 }
 
+.menu li:active,
 .menu li a:active{
   border-radius: 100%;
 }
@@ -308,7 +309,7 @@ html{
       flex-direction: column;
       text-align: center;
       border: 1px solid black;
-      background-image: url(img/ggg.jpg);
+      background-image: url(img/fondo/fondo-beneficios.jpg);
       font-weight: bold;
       font-size: 1.313rem;
       margin: 6rem 0;
