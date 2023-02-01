@@ -185,11 +185,15 @@ html{
   border-radius: 100%;
 }
 
+.menu li a:active{
+  border-radius: 100%;
+}
+
 /* --------------------- PREVENTA ------------- */
 
 .preventa{
   display: flex;
-  background-image: url(img/fondo-preventa.jpg);
+  background-image: url(img/fondo/fondo-preventa.jpg);
   margin-top: 2.5rem;
 }
 
@@ -317,6 +321,10 @@ html{
     display: flex;
     flex-direction: column;
     gap: 0.938rem;
+  }
+
+  .beneficios-contenedor img{
+    width: 20px;
   }
 
     /* -------------- CONTACTO ---------------- */

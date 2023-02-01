@@ -12,10 +12,10 @@
 
     <header>
 
-        <nav class="navegador">
+        <nav class="navegador" id="navegador">
 
             <div class="menu-principal">
-              <img src="img/eevee.png" alt="evee" class="icono-principal">
+              <img src="img/evee-cara.png" alt="evee" class="icono-principal">
 
               <label for="menu-des" class="menu-label">
                 <img src="img/menu.png" alt="menu despegable" class="menu-des">
@@ -23,10 +23,10 @@
             <input type="checkbox" id="menu-des">
         
               <ul class="nav-list nav-list-principal">
-                  <li class="nav-item"> <a class="nav-item-link" href="">Inicio</a> </li>
-                  <li class="nav-item"> <a class="nav-item-link" href="">Productos</a> </li>
-                  <li class="nav-item"> <a class="nav-item-link" href="">Beneficios</a> </li>
-                  <li class="nav-item"> <a class="nav-item-link" href="">Contacto</a> </li>
+                  <li class="nav-item"> <a class="nav-item-link" href="#navegador">Inicio</a> </li>
+                  <li class="nav-item"> <a class="nav-item-link" href="#productos">Productos</a> </li>
+                  <li class="nav-item"> <a class="nav-item-link" href="#beneficios">Beneficios</a> </li>
+                  <li class="nav-item"> <a class="nav-item-link" href="#contacto">Contacto</a> </li>
               </ul>
 
             </div>            
@@ -52,20 +52,20 @@
             <li id="slide1">
                 <h1>Mine Tienda </h1>
                 <h2>Ropa importada y nacional</h2>
-                <img src="img/e.jpg" class="slider-1" />
+                <img src="img/fondo/evee.jpg" class="slider-1" />
             </li>
 
             <li id="slide2">
                 <h1>Envios gratis a sucursar correo argentino</h1>
                 <h2>a partir de $7000</h2>
-                <img src="img/envio.jpg" alt="" class="slider-2">
+                <img src="img/fondo/envio.jpg" alt="" class="slider-2">
                 
             </li>
 
             <li id="slide3">
                 <h1>¡ ESPECIAL HALLOWEN !</h1>
                 <h2>%20 de descuento con el cupon "POKE"</h2>
-                <img src="img/h.jpg" alt="" class="slider-3">
+                <img src="img/fondo/halloween.jpg" alt="" class="slider-3">
             </li>
 
         </ul>
@@ -99,9 +99,10 @@
     </div>
       </div>
 
-      <h2>PRODUCTOS</h2>
+      <h2 id="productos">PRODUCTOS</h2>
 
-      <div class="productos-conteiner">
+      <div class="productos-conteiner" >
+
 
         <div class="producto">
             <img src="img/ropa/remera-pikachu.jpg" alt="CroTop pokemon">
@@ -183,19 +184,22 @@
 
     </section>
 
-    <section class="beneficios">
+
+
+
+    <section class="beneficios" id="beneficios">
 
         <div class="beneficios-contenedor"> 
         <h3>Beneficios</h3>
         <p>Somos una empresa textil y también importados productos de excelente calidad</p>
         <p>¿Queres trabajar con nosotros? PODES SER MAYORISTA</p>
         <p>Para acceder a los precios mayoristas, el monto minimo es de <strong>$ 70.000</strong>. </p>
-        <p>¿Dudas? <a href="">Contactanos</a> </p>
+        <p>¿Dudas? <img src="img/abajo.png" alt=""><img src="img/abajo.png" alt=""><img src="img/abajo.png" alt=""> </p>
     </div>
 
     </section>
 
-    <section class="contacto">
+    <section class="contacto" id="contacto">
 
         <form class="form">
 
@@ -270,7 +274,7 @@
             <img src="img/pagos/pagofacil.png " alt="Pago facil">
             <img src="img/pagos/rapipago.png " alt="Rapi pago">
             <img src="img/pagos/visa.png" alt="Tarjeta Visa">
-            
+
         </div>
 
         </div>
