@@ -50,7 +50,7 @@ input::placeholder{
 }
 
 .registro {
-    padding: 0.75rem 0px;
+    padding: 0.75rem 0;
 }
 
 .registro a{
@@ -61,7 +61,7 @@ input::placeholder{
     background-color: #ceaed5;
     color: black;
     border-radius: 0.938rem;
-    width: 0.938rem;
+    width: 15rem;
     height: 3rem;
     font-weight: bold;
 }
@@ -161,7 +161,7 @@ a {
 }
 
 .home img {
-    width: 1.875rem;
+    width: 30px;
 }
 
 .home a {
