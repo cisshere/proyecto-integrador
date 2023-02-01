@@ -87,7 +87,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3% 7%;
+  margin: 2rem 3rem;
   flex-wrap: wrap;
 }
 
@@ -220,7 +220,7 @@ html{
   font-size: 1.75rem;
   font-weight: bold;
   background-color: #f7d2f59e;
-    margin: 7%;
+    margin: 3rem;
 }
 
 .productos-conteiner {
@@ -229,7 +229,7 @@ html{
     justify-content: center;
     align-items: center;
     gap: 0.938rem;
-    margin: 0 10%;
+    margin: 0 8.5rem;
 }
 
 .producto {
@@ -237,7 +237,7 @@ html{
     display: flex;
     text-align: center;
     gap: 0.313rem;
-    margin: 2%;
+    margin: 1rem;
 }
 
 .producto img {
@@ -263,7 +263,7 @@ html{
   border-radius: 0.25rem;
   padding: 0.25rem 1.438rem;
   letter-spacing: 1px;
-  margin-top: 2%;
+  margin-top: 0.3rem;
 }
 
 .producto a:hover,
@@ -286,7 +286,7 @@ html{
   justify-content: center;
   align-items: center;
   gap: 0.938rem;
-  margin: 3% 10%;
+  margin: 2.7rem 6.5rem;;
 
 }
 
@@ -306,17 +306,17 @@ html{
       border: 1px solid black;
       background-image: url(img/ggg.jpg);
       font-weight: bold;
-      font-size: 21px;
+      font-size: 1.313rem;
       margin: 6rem 0;
   }
 
   .beneficios-contenedor {
     background-color: rgba(41, 39, 39, 0.6);
-    padding: 20px;
+    padding: 1.25rem;
     color: #ffdddd;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.938rem;
   }
 
     /* -------------- CONTACTO ---------------- */
@@ -333,7 +333,7 @@ html{
       display: flex;
     text-align: center;
     flex-direction: column;
-    gap: 36px;
+    gap: 2.25rem;
     }
 
     .form h2{
@@ -350,11 +350,11 @@ html{
 input {
   text-align: center;
     background: transparent;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: black;
-    padding: 4px 17px;
+    padding: 0.25rem 1.063rem;
     border: none;
-    border-bottom: 2px solid #e1d4d4;
+    border-bottom: 0.125rem solid #e1d4d4;
 }
 
 .input-contacto {
@@ -363,7 +363,7 @@ input {
 
 .contenedor textarea{
   resize: none;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .submit {
@@ -390,16 +390,16 @@ footer{
 .redes {
   display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 1.125rem;
 }
 
 .redes img {
-  width: 35px;
+  width: 2.188rem;
 }
 
 .contenedor-redes {
   display: flex;
-    gap: 13px;
+    gap: 0.813rem;
 }
 
 .contactos {
@@ -409,5 +409,5 @@ footer{
 }
 
 .medios-de-pago img {
-  width: 50px;
+  width: 3.125rem;
 }
