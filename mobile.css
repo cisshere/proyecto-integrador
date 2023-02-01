@@ -9,7 +9,7 @@
         position: absolute;
         display: none;
         flex-direction: column;
-        top: 62px;
+        top: 3.875rem;
         left: 12%;
         width: 54%;
         align-items: center;
@@ -17,19 +17,38 @@
         border: 2px solid black;
         border-top: 0;
         padding: 4% 0%;
-        font-size: 18px;
+        font-size: 1.125rem;
         z-index: 1;
     }
 
+    .nav-item{
+        gap: 0.938rem;
+    }
+
+    .nav-list-principal>.nav-item:first-child::before{
+        content: "🏡";
+    }
+
+    .nav-list-principal>.nav-item:nth-child(2)::before{
+        content: "👚";
+    }
+
+    .nav-list-principal>.nav-item:nth-child(3)::before{
+        content: "🎁";
+    }
+
+    .nav-list-principal>.nav-item:nth-child(4)::before{
+        content: "📱";
+    }
 
     .navegador {
         justify-content: space-between;
     }
 
     .icono-principal{
-    height: 35px;
-    width: 35px;
-    margin-top: 4px;
+    height: 2.188rem;
+    width: 2.188rem;
+    margin-top: 0.25rem;
     }
 
     .menu-label, .menu-des, .menu-label{
@@ -38,9 +57,9 @@
     }
     
     .menu-label img{
-        width: 30px;
-        height: 30px;
-        margin-top: 6px;
+        width: 1.875rem;
+        height: 1.875rem;
+        margin-top: 0.375rem;
     }
     
     #menu-des:checked + .nav-list-principal{
@@ -58,7 +77,7 @@
  }
 
     .nav-list-principal{
-        top: 53px;
+        top: 3.313rem;
         left: 5%;
     }
 
