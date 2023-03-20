@@ -16,7 +16,6 @@ html{
 .navegador {
     display: flex;
     justify-content: space-around;
-    font-weight: bold;
     background-color: #ceaed5; 
     padding: 0.75rem 0.938rem;
 }
@@ -84,11 +83,7 @@ html{
 /* ------------- HERO ---------------- */
 
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 2rem 3rem;
-  flex-wrap: wrap;
 }
 
 #carousel {
@@ -223,7 +218,6 @@ html{
 .cards h2 {
   text-align: center;
   font-size: 1.75rem;
-  font-weight: bold;
   background-color: #f7d2f59e;
     margin: 3rem;
 }
@@ -232,7 +226,6 @@ html{
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 0.938rem;
     margin: 0 8.5rem;
 }
@@ -291,29 +284,22 @@ html{
 
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 0.938rem;
   margin: 2.7rem 6.5rem;;
 
 }
 
 .ver-mas a{
   background-color: #f7d2f5;
-    text-align: center;
     padding: 0.625rem 0.875rem;
     border: 1px solid black;
+    border-radius: 0.25rem;
     }
 
     /* --------------------- BENEFICIOS -------------------- */
 
     .beneficios{
-      display: flex; 
-      flex-direction: column;
-      text-align: center;
       border: 1px solid black;
       background-image: url(img/fondo/fondo-beneficios.jpg);
-      font-weight: bold;
-      font-size: 1.313rem;
       margin: 6rem 0;
   }
 
@@ -324,6 +310,9 @@ html{
     display: flex;
     flex-direction: column;
     gap: 0.938rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.313rem;
   }
 
   .beneficios-contenedor img{
@@ -379,6 +368,8 @@ input {
 
 .submit {
   background-color: #ceaed5;
+  border-bottom: none;
+    cursor: pointer;
 }
 
 /* MAPA --------*/
@@ -395,7 +386,7 @@ footer{
   background-color: #ceaed5;
   padding: 2rem;
   display: flex;
-  gap: 4rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
   text-align: center;
 }
